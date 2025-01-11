@@ -33,7 +33,7 @@ const Trending = () => {
     >
       <Image
         source={{ uri: item.show.image?.medium }}
-        style={[styles.movieThumbnail, { width: screenWidth * 0.25, height: screenWidth * 0.375 }]} // Dynamically set image size
+        style={[styles.movieThumbnail, { width: screenWidth * 0.25, height: screenWidth * 0.375 }]} // Consistent image size for both
       />
       <Text style={styles.movieTitle}>{item.show.name}</Text>
     </TouchableOpacity>
